@@ -31,3 +31,5 @@ for i in genders:
         cleaned.append("M")
     else:
         cleaned.append("")
+        
+df["gen"] = cleaned
